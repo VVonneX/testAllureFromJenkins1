@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: Mesto1Test
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.382 s <<< FAILURE! - in Mesto1Test
+likeTheFirstPhoto(Mesto1Test)  Time elapsed: 2.998 s  <<< ERROR!
+java.lang.IllegalArgumentException: Unnamed path parameter cannot be null (path parameter at index 0 is null)
+	at Mesto1Test.likePhotoById(Mesto1Test.java:55)
+	at Mesto1Test.likeTheFirstPhoto(Mesto1Test.java:37)
+
